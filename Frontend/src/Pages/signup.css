@@ -1,0 +1,31 @@
+.signupPage {
+  text-align: center;
+}
+.signupPage > h1 {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.signupPage > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.signupPage > form > input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  outline: none;
+}
+.button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.button:hover {
+  background-color: grey;
+  transition: ease all 0.2s;
+}
